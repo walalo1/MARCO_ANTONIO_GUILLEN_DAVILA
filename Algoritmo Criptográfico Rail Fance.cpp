@@ -1,6 +1,7 @@
 #include <iostream>
 #include <stdio.h>
 #include <string>
+#include <vector>
 using namespace std;
 
 string EncriptacionRail(string original, int r);
