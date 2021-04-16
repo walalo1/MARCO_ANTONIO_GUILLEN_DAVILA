@@ -14,8 +14,9 @@ int main() {
   cout << "El mensaje " << ptr2 << " se convierte en:" << endl;
   pch = strtok(ptr2, " ,.-?!¡¿;:´");
   while (pch != NULL) {
-    cout << pch << endl;
+    cout << pch << " ";
     pch = strtok(NULL, " ,.-?!¡¿;:´");
   }
+  cout << endl;
   return 0;
 }
