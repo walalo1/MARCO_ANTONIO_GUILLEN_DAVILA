@@ -3,9 +3,9 @@
 #include <tuple>
 
 using namespace std;
-
+//si el alfabeto es diferente a las pruebas solo modificar
 const string alfabeto =
-    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+    "ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz1234567890-.";
 
 class CodificadorCesar {
 
